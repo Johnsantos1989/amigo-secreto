@@ -1,12 +1,15 @@
+// 🎯 Lista de amigos
 const lista = [];
+
+// 🎯 Elementos da interface
 const campoInput = document.getElementById('amigo');
 const listaVisual = document.getElementById('listaAmigos');
 const resultadoVisual = document.getElementById('resultado');
 
-// 🗣️ Fala uma mensagem com a voz do navegador
+// 🔊 Fala uma mensagem com a voz do navegador
 function falar(mensagem) {
   const fala = new SpeechSynthesisUtterance(mensagem);
-  fala.lang = 'pt-BR'; // Português do Brasil
+  fala.lang = 'pt-BR';
   window.speechSynthesis.speak(fala);
 }
 
@@ -66,4 +69,13 @@ function sortearAmigo() {
       falar(`Amigo secreto sorteado: ${sorteado}`);
     }
   }, intervalo);
+}
+
+// 🔄 Reinicia o sorteio e limpa tudo
+function reiniciarSorteio() {
+  lista.length = 0;
+  listaVisual.innerHTML = "";
+  resultadoVisual.innerHTML = "";
+  campoInput.value = "";
+  falar("Lista reiniciada! Pronto para começar um novo sorteio.");
 }
