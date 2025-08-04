@@ -12,7 +12,7 @@ Bem-vindo ao projeto **Amigo Secreto** — feito para facilitar o sorteio divert
 3. Cada pessoa recebe seu amigo secreto sem bagunça
 
 ## 📸 Preview
-![screenshot](https://github.com/Johnsantos1989/amigo-secreto/raw/principal/screenshot.png)
+![screenshot](https://github.com/Johnsantos1989/amigo-secreto/raw/principal/amigo-secreto.png)
 
 ## 📱 Versão mobile
 
