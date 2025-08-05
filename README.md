@@ -38,7 +38,7 @@ Faça um fork, envie um pull request ou abra uma issue com sugestões!
 ## 📬 Contato
 
 - GitHub: [@Johnsantos1989](https://github.com/Johnsantos1989)
-- LinkedIn: [linkedin.com/in/johnsantos1989](https://www.linkedin.com/in/analistafinanceiro-powerbi)
+- LinkedIn: [www.linkedin.com/in/analistafinanceiro-powerbi]
 
 ## 📌 Autor
 
